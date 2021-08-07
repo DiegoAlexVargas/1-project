@@ -1,12 +1,16 @@
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the network depicted in the Diagram folder.
 
-(Images/Virtual project.png)
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured in the diagram. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+  - located in Ansible/filebeat-playbook.yml
 
-  - _TODO: Enter the playbook file._
+Configurations for the filebeat and metricbeat will need to be made as well.
+
+- located in Ansible/Metricbeat-config.yml & Ansible/filebeat-config.yml
+
+Playbooks for both will be located in the same Ansible folder. 
 
 This document contains the following details:
 - Description of the Topology
